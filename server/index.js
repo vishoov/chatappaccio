@@ -41,7 +41,13 @@ io.on("connection", (socket)=>{
 
 
 
-
+//io.on
+//socket.emit
+//socket.on
+//io.emit
+//socket.join
+//io.to().emit
+//socket.leave
 
 
 

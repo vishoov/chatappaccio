@@ -41,6 +41,11 @@ const App = () => {
     socket.on('fwd-message', (msg)=>{
       setMessages([...messages, msg]);
     })
+
+    return ()=>{
+      socket.off('connect');
+      
+    }
   })
 
   return (
